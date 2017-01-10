@@ -1,6 +1,8 @@
 # JGC30_tubeamp
 
-"Small" tube amplifier with two preamp channels
+"Small" guitar tube amplifier with two preamp channels.
+
+It is conceived to be inserted in a small combo box with a single 12" speaker. 
 
 Author: @AGordiGuerrero
         @SolEpcc

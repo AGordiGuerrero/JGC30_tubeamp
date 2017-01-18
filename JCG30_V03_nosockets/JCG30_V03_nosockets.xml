@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Dropbox/Guitarra/Amplificadores/JGC30/KicadProject/JCG30_V03_nosockets/JCG30_V03_nosockets.sch</source>
+    <date>17/01/2017 18:46:55</date>
+    <tool>Eeschema 4.0.0-rc2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>JGC30 tube preamplifier</title>
+        <company>Antonio Gordillo Guerrero. Smart Open Lab.</company>
+        <rev>V0.2</rev>
+        <date>2016-11-19</date>
+        <source>JCG30_V03_nosockets.sch</source>
+        <comment number="1" value="Without sockets to hold the tubes, just wire pads"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>INPUT</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EB2</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>OUTPUT</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EB3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CH1/CH2_A</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x03</footprint>
+      <fields>
+        <field name="Characteristics">120VAC</field>
+        <field name="Description">3PDT toggle switch, ON - NONE - ON</field>
+        <field name="MFN">E-Switch</field>
+        <field name="MFP">1003P1T1B1M1QEH</field>
+        <field name="Package ID">Value</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">612-100-M1111</field>
+        <field name="Source1Price">4,79 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/E-Switch/1003P1T1B1M1QEH/?qs=sGAEpiMZZMvudeGI7i40XBXFLpevU8oTvBiQtyeh%252bOg%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="SW-SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EB4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Vishay</field>
+        <field name="MFS">Value</field>
+        <field name="MFP">CCF551M00FKE36</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">71-CCF551M00FKE36</field>
+        <field name="Source1Price">0.16€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Vishay/CCF551M00FKE36/?qs=%2fha2pyFaduid2YKtrsL5dWVM0U4IB6lgrjp5sO2j643o8cKOrmw6wg%3d%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EB5</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>47u</value>
+      <footprint>Capacitors_THT:C_Radial_D14_L31.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">450VDC</field>
+        <field name="Description">General Purpose Electrolytic Capacitors</field>
+        <field name="MFN">Panasonic</field>
+        <field name="MFP">EEU-EE2W470S</field>
+        <field name="Package ID">EE</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">667-EEU-EE2W470S</field>
+        <field name="Source1Price">2.32€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Panasonic/EEU-EE2W470S/?qs=sGAEpiMZZMtZ1n0r9vR22dN7zJS18SGVwev2rCc7kfs%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EB9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k7</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FRF52-2K7</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FRF52-2K7</field>
+        <field name="Source1Price">0.113€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FRF52-2K7/?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNndT8lq5qc%2fmIw%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EBA</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>1MA</value>
+      <footprint>Potentiometers:Potentiometer_WirePads_Small</footprint>
+      <fields>
+        <field name="Characteristics">60mW</field>
+        <field name="Description">Carbon potentiometer, rotatory, serrated</field>
+        <field name="MFN">Alpha (Taiwan)</field>
+        <field name="MFP">RV16AF-20-15K-A1M-3LA</field>
+        <field name="Package ID">Through hole, panel mount</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">313-1530F-1M</field>
+        <field name="Source1Price">1,62 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Alpha-Taiwan/RV16AF-20-15K-A1M-3LA/?qs=sGAEpiMZZMtC25l1F4XBU1WvpdUcjC%2f6J2WjWqnT28JmR8gU1CL3Fw%3d%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="POT-RESCUE-KeeleyJavaBoost_V01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EBB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>68k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FTE52-68K</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FTE52-68K</field>
+        <field name="Source1Price">0.113€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FTE52-68K/?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNndqkYkeLIi2jk%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EBC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>680n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W4.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">50 VDC</field>
+        <field name="Description">Metallized Polyester (PET) Capacitors PCM 5 mm</field>
+        <field name="MFN">WIMA</field>
+        <field name="MFP">MKS2B036801C00JA00</field>
+        <field name="Package ID">MKS2</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">505-MKS2B036801C00JA</field>
+        <field name="Source1Price">0.342€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/WIMA/MKS2B036801C00JA00/?qs=sGAEpiMZZMv1cc3ydrPrF7l45uRd9dVhXD8p2Cb2qBg%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EBD</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BRIGHT</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="Characteristics">125VAC</field>
+        <field name="Description">Toggle switch, ON-OFF</field>
+        <field name="MFN">Mountain Switch</field>
+        <field name="MFP">10TC605</field>
+        <field name="Package ID">Bulk</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">10TC605</field>
+        <field name="Source1Price">2.16 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Mountain-Switch/10TC605/?qs=sGAEpiMZZMvudeGI7i40XOrEA%2fE3pAYM8QXJzdSGoiU%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="SW-SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EBF</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W3.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Double Metallized Polypropylene Film</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">PHE450MK5220JR05</field>
+        <field name="Package ID">PHE450</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">80-PHE450MK5220JR05</field>
+        <field name="Source1Price">0.67€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Kemet/PHE450MK5220JR05/?qs=sGAEpiMZZMv1cc3ydrPrF8YT%2fvJ6Du2Eeo2RW1jWhFw%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EC0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470p</value>
+      <footprint>Capacitors_THT:C_Rect_L10_W2.5_P7.5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Metallized Polypropylene Film Capacitor DC and Pulse Applications</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">R75QD0470DQ30J</field>
+        <field name="Package ID">R75</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">80-R75QD0470DQ30J</field>
+        <field name="Source1Price">0.811€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Kemet/R75QD0470DQ30J/?qs=sGAEpiMZZMv1cc3ydrPrFwtEEAcCyO9Lno4rk%2fffEtI%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EC1</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>47k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.5W, 700W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">KOA Speer</field>
+        <field name="MFP">MF1/2DC4702F</field>
+        <field name="Package ID">MF</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">660-MF1/2DC4702F</field>
+        <field name="Source1Price">0.161€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/KOA-Speer/MF1-2DC4702F/?qs=sGAEpiMZZMu61qfTUdNhG0RUkTLGOdTMbrAUdwu816A%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EC5</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>CH1/CH2_B</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="Characteristics">Value</field>
+        <field name="Description">Value</field>
+        <field name="MFN">Value</field>
+        <field name="MFP">Value</field>
+        <field name="Package ID">Value</field>
+        <field name="Source1">Value</field>
+        <field name="Source1Part">Value</field>
+        <field name="Source1Price">Value</field>
+        <field name="Source1Link">Value</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="SW-SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EC6</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>V2A_G</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EC7</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>V2A_K</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EC8</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>V2A_A</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EC9</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>V2B_G</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ECA</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>V2B_K</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ECB</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>V2B_A</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ECC</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>V1A_G</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ECD</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>V1A_K</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ECE</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>V1A_A</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ECF</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>V3A_G</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED0</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>V3A_K</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED1</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>V3A_A</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED2</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>V3B_G</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED3</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>V3B_K</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED4</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>V3B_A</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED5</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>VCC</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22u</value>
+      <footprint>Capacitors_THT:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <fields>
+        <field name="Characteristics">35VDC</field>
+        <field name="Description">Electrolitic Aluminium Radial Lead Type</field>
+        <field name="MFN">Panasonic</field>
+        <field name="MFP">ECA-1VM220B</field>
+        <field name="Package ID">M</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">ECA-1VM220B</field>
+        <field name="Source1Price">0.16€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Panasonic/ECA-1VM220B/?qs=sGAEpiMZZMvwFf0viD3Y3ffldXPLozaytDH8DKgv7WI%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED7</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>GROUND</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-5mmDrill</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED8</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1M</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Vishay</field>
+        <field name="MFP">CCF551M00FKE36</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">71-CCF551M00FKE36</field>
+        <field name="Source1Price">0.16€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Vishay/CCF551M00FKE36/?qs=%2fha2pyFaduid2YKtrsL5dWVM0U4IB6lgrjp5sO2j643o8cKOrmw6wg%3d%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4ED9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>68k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FTE52-68K</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FTE52-68K</field>
+        <field name="Source1Price">0.113€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FTE52-68K/?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNndqkYkeLIi2jk%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EDA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.5W, 500V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Vishay</field>
+        <field name="MFP">CMF60100K00FKEB</field>
+        <field name="Package ID">CMFIndustrial</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">71-CMF60100K00FKEB</field>
+        <field name="Source1Price">0.556€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Vishay-Dale/CMF60100K00FKEB/?qs=sGAEpiMZZMu61qfTUdNhGwBiNiGBqN%2fzagNcyJJMTlY%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EDB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>820R</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FBF52-820R</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FBF52-820R</field>
+        <field name="Source1Price">0.113€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FBF52-820R/?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNndpbo7t%252bqtiYY%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EDC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>820R</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FBF52-820R</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FBF52-820R</field>
+        <field name="Source1Price">0.113€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FBF52-820R/?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNndpbo7t%252bqtiYY%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EDD</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.5W, 500V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Vishay</field>
+        <field name="MFP">CMF60100K00FKEB</field>
+        <field name="Package ID">CMFIndustrial</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">71-CMF60100K00FKEB</field>
+        <field name="Source1Price">0.556€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Vishay-Dale/CMF60100K00FKEB/?qs=sGAEpiMZZMu61qfTUdNhGwBiNiGBqN%2fzagNcyJJMTlY%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EDE</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.5W, 500V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Vishay</field>
+        <field name="MFP">CMF60100K00FKEB</field>
+        <field name="Package ID">CMFIndustrial</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">71-CMF60100K00FKEB</field>
+        <field name="Source1Price">0.556€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Vishay-Dale/CMF60100K00FKEB/?qs=sGAEpiMZZMu61qfTUdNhGwBiNiGBqN%2fzagNcyJJMTlY%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EDF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">2W, 500V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">FMP200JR-52-220K</field>
+        <field name="Package ID">FMP</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-FMP200JR-52-220K</field>
+        <field name="Source1Price">0.245€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/FMP200JR-52-220K/?qs=sGAEpiMZZMu61qfTUdNhGztMfEiwFKKT8tJfn5xrilY%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE0</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>220k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">2W, 500V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">FMP200JR-52-220K</field>
+        <field name="Package ID">FMP</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-FMP200JR-52-220K</field>
+        <field name="Source1Price">0.245€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/FMP200JR-52-220K/?qs=sGAEpiMZZMu61qfTUdNhGztMfEiwFKKT8tJfn5xrilY%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE1</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>47k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.5W, 700W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">KOA Speer</field>
+        <field name="MFP">MF1/2DC4702F</field>
+        <field name="Package ID">MF</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">660-MF1/2DC4702F</field>
+        <field name="Source1Price">0.161€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/KOA-Speer/MF1-2DC4702F/?qs=sGAEpiMZZMu61qfTUdNhG0RUkTLGOdTMbrAUdwu816A%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>470k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W, 250V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FRF52-470K</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FRF52-470K</field>
+        <field name="Source1Price">0.087€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FRF52-470K/?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNndCa9frJHvSy8%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE3</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>470k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W, 250V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FRF52-470K</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FRF52-470K</field>
+        <field name="Source1Price">0.087€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FRF52-470K/?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNndCa9frJHvSy8%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE4</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>33k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.6W, 350V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">603-MF0207FTE52-33K</field>
+        <field name="Package ID">MF0</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MF0207FTE52-33K</field>
+        <field name="Source1Price">0.104€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MF0207FTE52-33K/?qs=sGAEpiMZZMu61qfTUdNhG9FodMeJR7x9rJbMY0rijM4%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>33R</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">2W, 500V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Vishay</field>
+        <field name="MFP">PR02000203309JR500</field>
+        <field name="Package ID">5073</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">594-5083NW33R00J</field>
+        <field name="Source1Price">0.321€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Vishay-BC-Components/PR02000203309JR500/?qs=sGAEpiMZZMu61qfTUdNhG%2f4r7Iw6CIkydikjkbdzDms%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE6</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>47R</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">2W, 500V</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Vishay</field>
+        <field name="MFP">PR02000204709JR500</field>
+        <field name="Package ID">5073</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">594-5083NW47R00J</field>
+        <field name="Source1Price">0.321€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Vishay-BC-Components/PR02000203309JR500/?qs=sGAEpiMZZMu61qfTUdNhG%2f4r7Iw6CIkydikjkbdzDms%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistors_THT:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Characteristics">0.25W</field>
+        <field name="Description">Metal film through hole resistor</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FRF52-10K</field>
+        <field name="Package ID">MFR</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">603-MFR-25FRF52-10K</field>
+        <field name="Source1Price">0.094€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Yageo/MFR-25FRF52-10K/?qs=sGAEpiMZZMu61qfTUdNhGztMfEiwFKKTpKeEBKehEYg%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE8</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>680n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W4.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">50 VDC</field>
+        <field name="Description">Metallized Polyester (PET) Capacitors PCM 5 mm</field>
+        <field name="MFN">WIMA</field>
+        <field name="MFP">MKS2B036801C00JA00</field>
+        <field name="Package ID">MKS2</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">505-MKS2B036801C00JA</field>
+        <field name="Source1Price">0.342€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/WIMA/MKS2B036801C00JA00/?qs=sGAEpiMZZMv1cc3ydrPrF7l45uRd9dVhXD8p2Cb2qBg%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EE9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22u</value>
+      <footprint>Capacitors_THT:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <fields>
+        <field name="Characteristics">35VDC</field>
+        <field name="Description">Electrolitic Aluminium Radial Lead Type</field>
+        <field name="MFN">Panasonic</field>
+        <field name="MFP">ECA-1VM220B</field>
+        <field name="Package ID">M</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">ECA-1VM220B</field>
+        <field name="Source1Price">0.16€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Panasonic/ECA-1VM220B/?qs=sGAEpiMZZMvwFf0viD3Y3ffldXPLozaytDH8DKgv7WI%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EEA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470p</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W4.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">63VAC</field>
+        <field name="Description">Metallized Polyester (PET) Capacitors PCM 5 mm</field>
+        <field name="MFN">WIMA</field>
+        <field name="MFP">FKP2D004701D00JSSD</field>
+        <field name="Package ID">FKP2</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">505-FKP2470/100/5</field>
+        <field name="Source1Price">0.352€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/WIMA/FKP2D004701D00JSSD/?qs=sGAEpiMZZMv1cc3ydrPrFwgzP98AO9idfWukD%2fYb8fU%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EEB</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>470p</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W4.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">63VAC</field>
+        <field name="Description">Metallized Polyester (PET) Capacitors PCM 5 mm</field>
+        <field name="MFN">WIMA</field>
+        <field name="MFP">FKP2D004701D00JSSD</field>
+        <field name="Package ID">FKP2</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">505-FKP2470/100/5</field>
+        <field name="Source1Price">0.352€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/WIMA/FKP2D004701D00JSSD/?qs=sGAEpiMZZMv1cc3ydrPrFwgzP98AO9idfWukD%2fYb8fU%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EEC</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>470p</value>
+      <footprint>Capacitors_THT:C_Rect_L10_W2.5_P7.5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Metallized Polypropylene Film Capacitor DC and Pulse Applications</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">R75QD0470DQ30J</field>
+        <field name="Package ID">R75</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">80-R75QD0470DQ30J</field>
+        <field name="Source1Price">0.811€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Kemet/R75QD0470DQ30J/?qs=sGAEpiMZZMv1cc3ydrPrFwtEEAcCyO9Lno4rk%2fffEtI%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EED</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W4.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">63VAC</field>
+        <field name="Description">Polypropylene (PP) Capacitors</field>
+        <field name="MFN">WIMA</field>
+        <field name="MFP">FKS2D011001A00KC00</field>
+        <field name="Package ID">FKP2</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">505-FKS2D011001A00KC00</field>
+        <field name="Source1Price">0.191€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/WIMA/FKS2D011001A00KC00/?qs=sGAEpiMZZMv1cc3ydrPrF2CPLAojp4yWK6zCnEZkMTQ%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EEE</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100p</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W4.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">63VAC</field>
+        <field name="Description">Polypropylene (PP) Capacitors</field>
+        <field name="MFN">WIMA</field>
+        <field name="MFP">FKS2D011001A00KC00</field>
+        <field name="Package ID">FKP2</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">505-FKP2D001001D00JO00</field>
+        <field name="Source1Price">0.141€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/WIMA/FKP2D001001D00JO00/?qs=sGAEpiMZZMv1cc3ydrPrF2CPLAojp4yW29gRXGnm4As%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EEF</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>22n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W3.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Double Metallized Polypropylene Film</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">PHE450MK5220JR05</field>
+        <field name="Package ID">PHE450</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">80-PHE450MK5220JR05</field>
+        <field name="Source1Price">0.67€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Kemet/PHE450MK5220JR05/?qs=sGAEpiMZZMv1cc3ydrPrF8YT%2fvJ6Du2Eeo2RW1jWhFw%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF0</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>22n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W3.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Double Metallized Polypropylene Film</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">PHE450MK5220JR05</field>
+        <field name="Package ID">PHE450</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">80-PHE450MK5220JR05</field>
+        <field name="Source1Price">0.67€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Kemet/PHE450MK5220JR05/?qs=sGAEpiMZZMv1cc3ydrPrF8YT%2fvJ6Du2Eeo2RW1jWhFw%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF1</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W3.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Double Metallized Polypropylene Film</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">PHE450MK5220JR05</field>
+        <field name="Package ID">PHE450</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">80-PHE450MK5220JR05</field>
+        <field name="Source1Price">0.67€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Kemet/PHE450MK5220JR05/?qs=sGAEpiMZZMv1cc3ydrPrF8YT%2fvJ6Du2Eeo2RW1jWhFw%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>47n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W4.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Metallized Polyester (PET) Capacitors PCM 5 mm</field>
+        <field name="MFN">WIMA</field>
+        <field name="MFP">MKS4J024702F00KSSD</field>
+        <field name="Package ID">MKS4</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">505-MKS2B036801C00JA</field>
+        <field name="Source1Price">0.342€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/WIMA/MKS4J024702F00KSSD/?qs=sGAEpiMZZMv1cc3ydrPrFwgzP98AO9id6x3yOoT7uvw%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF3</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>47u</value>
+      <footprint>Capacitors_THT:C_Radial_D14_L31.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">450VDC</field>
+        <field name="Description">General Purpose Electrolytic Capacitors</field>
+        <field name="MFN">Panasonic</field>
+        <field name="MFP">EEU-EE2W470S</field>
+        <field name="Package ID">EE</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">667-EEU-EE2W470S</field>
+        <field name="Source1Price">2.32€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Panasonic/EEU-EE2W470S/?qs=sGAEpiMZZMtZ1n0r9vR22dN7zJS18SGVwev2rCc7kfs%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF4</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>500k</value>
+      <footprint>Potentiometers:Potentiometer_WirePads_Small</footprint>
+      <fields>
+        <field name="Characteristics">60mW</field>
+        <field name="Description">Carbon potentiometer, rotatory, serrated</field>
+        <field name="MFN">Alpha (Taiwan)</field>
+        <field name="MFP">RV16AF-20-15K-A500K-3LA</field>
+        <field name="Package ID">Through hole, panel mount</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">313-1530F-500K</field>
+        <field name="Source1Price">1,62 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Alpha-Taiwan/RV16AF-20-15K-A500K-3LA/?qs=sGAEpiMZZMtC25l1F4XBU1WvpdUcjC%2f6UCWaDY0%2fW4Vn8PzRHPejnA%3d%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="POT-RESCUE-KeeleyJavaBoost_V01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF5</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>1MA</value>
+      <footprint>Potentiometers:Potentiometer_WirePads_Small</footprint>
+      <fields>
+        <field name="Characteristics">60mW</field>
+        <field name="Description">Carbon potentiometer, rotatory, serrated</field>
+        <field name="MFN">Alpha (Taiwan)</field>
+        <field name="MFP">RV16AF-20-15S1-C1M-LA</field>
+        <field name="Package ID">Through hole, panel mount</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">313-1540F-1M</field>
+        <field name="Source1Price">1,62 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Alpha-Taiwan/RV16AF-20-15S1-C1M-LA/?qs=sGAEpiMZZMtC25l1F4XBU1WvpdUcjC%2f6YGOm4lkxDsINek00kfLfiw%3d%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="POT-RESCUE-KeeleyJavaBoost_V01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF6</tstamp>
+    </comp>
+    <comp ref="RV5">
+      <value>25kB</value>
+      <footprint>Potentiometers:Potentiometer_WirePads_Small</footprint>
+      <fields>
+        <field name="Characteristics">60mW</field>
+        <field name="Description">Carbon potentiometer, rotatory, round</field>
+        <field name="MFN">Alpha (Taiwan)</field>
+        <field name="MFP">RV16AF-10-15R1-B25K-LA</field>
+        <field name="Package ID">Solder lugs, panel mount</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">313-1000F-25K</field>
+        <field name="Source1Price">1,62 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Alpha-Taiwan/RV16AF-10-15R1-B25K-LA/?qs=sGAEpiMZZMtC25l1F4XBU1WvpdUcjC%2f6ddkATNEA0qJLRZVT4p3iIA%3d%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="POT-RESCUE-KeeleyJavaBoost_V01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF7</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>250kB</value>
+      <footprint>Potentiometers:Potentiometer_WirePads_Small</footprint>
+      <fields>
+        <field name="Characteristics">125mW</field>
+        <field name="Description">Carbon potentiometer, rotatory, round</field>
+        <field name="MFN">Alpha (Taiwan)</field>
+        <field name="MFP">RV16AF-10-15R1-B250K-LA</field>
+        <field name="Package ID">Solder lugs, panel mount</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">313-1000F-250K</field>
+        <field name="Source1Price">1,62 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Alpha-Taiwan/RV16AF-10-15R1-B250K-LA/?qs=sGAEpiMZZMtC25l1F4XBU1WvpdUcjC%2f6%2fSpnrxfP7V6ygaJ5KCjQJQ%3d%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="POT-RESCUE-KeeleyJavaBoost_V01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>VTG/MDN</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="Characteristics">125VAC</field>
+        <field name="Description">Toggle switch, ON-OFF</field>
+        <field name="MFN">Mountain Switch</field>
+        <field name="MFP">10TC605</field>
+        <field name="Package ID">Bulk</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">10TC605</field>
+        <field name="Source1Price">2.16 €</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Mountain-Switch/10TC605/?qs=sGAEpiMZZMvudeGI7i40XOrEA%2fE3pAYM8QXJzdSGoiU%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="JCG30_V03_nosockets-cache" part="SW-SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4EF9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22n</value>
+      <footprint>Capacitors_THT:C_Rect_L7_W3.5_P5</footprint>
+      <fields>
+        <field name="Characteristics">400VAC</field>
+        <field name="Description">Double Metallized Polypropylene Film</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">PHE450MK5220JR05</field>
+        <field name="Package ID">PHE450</field>
+        <field name="Source1">Mouser</field>
+        <field name="Source1Part">80-PHE450MK5220JR05</field>
+        <field name="Source1Price">0.67€</field>
+        <field name="Source1Link">http://www.mouser.es/ProductDetail/Kemet/PHE450MK5220JR05/?qs=sGAEpiMZZMv1cc3ydrPrF8YT%2fvJ6Du2Eeo2RW1jWhFw%3d</field>
+        <field name="Notes">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E5CC7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JCG30_V03_nosockets-cache" part="POT-RESCUE-KeeleyJavaBoost_V01">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT-RESCUE-KeeleyJavaBoost_V01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JCG30_V03_nosockets-cache" part="SW-SPDT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SW-SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="T1" type="passive"/>
+        <pin num="2" name="P1" type="input"/>
+        <pin num="3" name="T2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JCG30_V03_nosockets-cache" part="SW-SPST">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SW-SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="T1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="JCG30_V03_nosockets-cache">
+      <uri>D:\Dropbox\Guitarra\Amplificadores\JGC30\KicadProject\JCG30_V03_nosockets\JCG30_V03_nosockets-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C14-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="2" name="Net-(P19-Pad1)">
+      <node ref="RV3" pin="2"/>
+      <node ref="P19" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C13-Pad1)">
+      <node ref="RV3" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C14-Pad1)">
+      <node ref="RV4" pin="2"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C15-Pad1)">
+      <node ref="RV5" pin="2"/>
+      <node ref="RV4" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R14-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="10" name="+HV1">
+      <node ref="R20" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="P16" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="R18" pin="2"/>
+      <node ref="P17" pin="1"/>
+    </net>
+    <net code="13" name="Net-(P13-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="P13" pin="1"/>
+      <node ref="P14" pin="1"/>
+    </net>
+    <net code="14" name="Net-(P11-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C11-Pad2)">
+      <node ref="P12" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="P18" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="RV5" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C10-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="19" name="Net-(RV5-Pad3)">
+      <node ref="RV5" pin="3"/>
+    </net>
+    <net code="20" name="Net-(RV4-Pad3)">
+      <node ref="RV4" pin="3"/>
+    </net>
+    <net code="21" name="+HV2">
+      <node ref="R10" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="P9" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="P4" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="26" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C9-Pad2)">
+      <node ref="P10" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C5-Pad2)">
+      <node ref="P7" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C10-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C4-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C5-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C7-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="34" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="35" name="Net-(C1-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>

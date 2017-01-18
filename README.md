@@ -15,4 +15,4 @@ Features:
   - Around 10-15W of output power
 
 Revision history:
-  - V0.2: only preamp PCB design with Kicad.
+  - V0.3: preamp PCB design with Kicad. It includes a supposedly well defined BOM.
